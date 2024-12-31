@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:bisque;
+
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    padding: 20px 50px;
+
+
+}
+.product img{
+    height:350px;
+    width:300px;
+    border-radius: 20px;
+}
+.product{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius:20px ;
+    box-shadow:inset 3px 3px 3px #3E7B27,inset -3px -3px 2px  gray;
+}
+button{
+    height:5vh ;
+    width:12vh ;
+    border-radius:20px ;
+    background: bisque;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+button:hover{
+    background: #CD5C08;
+
+}
+hr{
+    height:2vh;
+    box-shadow: 10px 10px 10px grey;
+}
